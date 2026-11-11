@@ -45,7 +45,7 @@ A file arrives late, broken or twice; a system changes its export; nobody can sa
 | Nights run | **3** | last: warnings |
 | Set aside last night | **1** | never half-loaded |
 | Totals agree | **yes** | staging to every published table |
-| A night takes | **0.7 s** | first load 144 s |
+| A night takes | **1.0 s** | first load 161 s |
 
 <p align="center"><img src="docs/dashboard.png" alt="Interactive dashboard" width="100%"></p>
 
@@ -53,19 +53,19 @@ A file arrives late, broken or twice; a system changes its export; nobody can sa
 
 ## Deliverables
 
-Everything opens from **one file**, `00_START_HERE`, in any browser: pick your role, read each document, watch the presentation, search the tables and use the dashboard. Each document has one reader and one job, and the numbers agree across all of them.
+Everything opens from **one file**, *Start here* (no. 1), in any browser: pick your role, read each document, watch the presentation, search the tables and use the dashboard. Each document has one reader and one job, and the numbers agree across all of them. PowerPoint and Excel files open in the browser through Microsoft's free online viewer; *download* gives the original file.
 
 | # | File | Format | What it is |
 |---|---|---|---|
-| 00 | [Start here](https://abduwars.github.io/proquant-12-data-engineering/sample-delivery/00_START_HERE_DemoClient.html) | HTML (opens in any browser) | **One file that holds it all**: every document, the presentation, the tables and the dashboard |
-| 01 | [Report](sample-delivery/01_DemoClient_DataEngineering_Report_v1.0_20261111.pdf) | PDF | *The data lead*: What was built and how it behaved over the nights (~15 pages) |
-| 02 | [Summary](sample-delivery/02_DemoClient_DataEngineering_Summary_v1.0_20261111.pdf) | PDF | *The owner*: One page: the decision, with no charts |
-| 03 | [Presentation](sample-delivery/03_DemoClient_DataEngineering_Presentation_v1.0_20261111.pptx) | PowerPoint | *The management team*: **A full talk**: 12 slides with editable charts and speaker notes |
-| 04 | [Results Workbook](sample-delivery/04_DemoClient_DataEngineering_ResultsWorkbook_v1.0_20261111.xlsx) | Excel | *The analyst*: **The working file**: a Control panel by night, every batch, the data dictionary and the lineage |
-| 05 | [Methodology](sample-delivery/05_DemoClient_DataEngineering_Methodology_v1.0_20261111.pdf) | PDF | *The auditor*: The design and every rule. No results |
-| 06 | [Handover Note](sample-delivery/06_DemoClient_DataEngineering_HandoverNote_v1.0_20261111.pdf) | PDF | *The owner*: Who does what next, which file is for whom |
-| 08 | [Runbook](sample-delivery/08_DemoClient_DataEngineering_Runbook_v1.0_20261111.pdf) | PDF | *Whoever runs it*: Every morning, and what to do when something breaks |
-| 09 | [Connection Guide](sample-delivery/09_DemoClient_DataEngineering_ConnectionGuide_v1.0_20261111.pdf) | PDF | *Whoever builds dashboards*: Power BI, Looker Studio, Excel, and the company's own cloud |
+| 1 | [Start here](https://abduwars.github.io/proquant-12-data-engineering/sample-delivery/00_START_HERE_DemoClient.html) | HTML (opens in any browser) | **One file that holds it all**: every document, the presentation, the tables and the dashboard |
+| 2 | [Report](sample-delivery/01_DemoClient_DataEngineering_Report_v1.0_20261111.pdf) | PDF | *The data lead*: What was built and how it behaved over the nights (~15 pages) |
+| 3 | [Summary](sample-delivery/02_DemoClient_DataEngineering_Summary_v1.0_20261111.pdf) | PDF | *The owner*: One page: the decision, with no charts |
+| 4 | [Presentation](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fabduwars.github.io%2Fproquant-12-data-engineering%2Fsample-delivery%2F03_DemoClient_DataEngineering_Presentation_v1.0_20261111.pptx) | PowerPoint · [download](https://raw.githubusercontent.com/AbduWars/proquant-12-data-engineering/main/sample-delivery/03_DemoClient_DataEngineering_Presentation_v1.0_20261111.pptx) | *The management team*: **A full talk**: 12 slides with editable charts and speaker notes |
+| 5 | [Results Workbook](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fabduwars.github.io%2Fproquant-12-data-engineering%2Fsample-delivery%2F04_DemoClient_DataEngineering_ResultsWorkbook_v1.0_20261111.xlsx) | Excel · [download](https://raw.githubusercontent.com/AbduWars/proquant-12-data-engineering/main/sample-delivery/04_DemoClient_DataEngineering_ResultsWorkbook_v1.0_20261111.xlsx) | *The analyst*: **The working file**: a Control panel by night, every batch, the data dictionary and the lineage |
+| 6 | [Methodology](sample-delivery/05_DemoClient_DataEngineering_Methodology_v1.0_20261111.pdf) | PDF | *The auditor*: The design and every rule. No results |
+| 7 | [Handover Note](sample-delivery/06_DemoClient_DataEngineering_HandoverNote_v1.0_20261111.pdf) | PDF | *The owner*: Who does what next, which file is for whom |
+| 8 | [Runbook](sample-delivery/08_DemoClient_DataEngineering_Runbook_v1.0_20261111.pdf) | PDF | *Whoever runs it*: Every morning, and what to do when something breaks |
+| 9 | [Connection Guide](sample-delivery/09_DemoClient_DataEngineering_ConnectionGuide_v1.0_20261111.pdf) | PDF | *Whoever builds dashboards*: Power BI, Looker Studio, Excel, and the company's own cloud |
 | 10 | [Dashboard](https://abduwars.github.io/proquant-12-data-engineering/sample-delivery/10_DemoClient_DataEngineering_Dashboard_v1.0_20261111.html) | HTML (opens in any browser) | *Whoever explores*: The nights, every batch, the tables, the lineage and the business view |
 
 **Delivered to clients only, not in this showcase:** the platform package (engine, models, schedules, database scripts).
